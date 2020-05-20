@@ -1,0 +1,18 @@
+.wp-pdfgen {
+  position: relative;
+}
+
+.wp-pdfgen .form-row {
+  margin-bottom: 25px;
+}
+
+.wp-pdfgen .form-row label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wp-pdfgen textarea {
+  width: 100%;
+  min-height: 250px;
+}

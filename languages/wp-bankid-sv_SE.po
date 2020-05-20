@@ -1,0 +1,335 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp-Bankid\n"
+"POT-Creation-Date: 2020-04-04 14:49+0430\n"
+"PO-Revision-Date: 2020-04-04 12:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: Dornaweb.com\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e;esc_attr_e;_x;_n;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: includes/admin/class-admin.php:22
+msgid "WP-Bankid"
+msgstr "WP-Bankid"
+
+#: includes/admin/class-admin.php:26
+msgid "Personal Number"
+msgstr "Personnummer"
+
+#: includes/admin/class-admin.php:29
+msgid "Please enter your Personalnumber"
+msgstr "Ange personnummer"
+
+#: includes/api/class-auth.php:27
+msgid "Invalid Personalnumber"
+msgstr "Ogiltigt personnummer"
+
+#: includes/api/class-auth.php:35
+msgid "You have already signed up, please login to your account"
+msgstr "Du är redan registrerad, vänligen logga in på ditt konto"
+
+#: includes/api/class-auth.php:43 includes/api/class-collect.php:109
+msgid "User not found"
+msgstr "Användare kunde inte hittas"
+
+#: includes/api/class-cancel.php:23 includes/api/class-collect.php:23
+msgid "Invalid Request"
+msgstr "Ogiltig begäran"
+
+#: includes/api/class-collect.php:56
+msgid "Technical Issue, contact support"
+msgstr "Tekniska problem, kontakta support@rixma.se"
+
+#: includes/api/class-collect.php:66
+msgid "User Already signed up"
+msgstr "Användaren har redan registrerat sig"
+
+#: includes/api/class-collect.php:84
+msgid "Internal error occured, please try again"
+msgstr "Tekniskt fel uppstod, vänligen försök igen"
+
+#: includes/api/class-collect.php:101
+msgid "You have succesfully registered on rixma"
+msgstr "Du är nu registrerad på Rixma"
+
+#: includes/api/class-complete-registration.php:29
+msgid "Please Enter your Email address"
+msgstr "Ange din e-postadress"
+
+#: includes/api/class-complete-registration.php:35
+msgid "Please Enter your Phone number"
+msgstr "Ange ditt telefonnummer"
+
+#: includes/api/class-complete-registration.php:41
+msgid "A user with this email address already exists"
+msgstr "Det finns redan en användare med den här e-postadressen"
+
+#: includes/api/class-complete-registration.php:47
+msgid "A user with this phone number already exists"
+msgstr "Det finns redan en användare med det här telefonnumret"
+
+#: includes/api/class-complete-registration.php:68
+msgid "Your registration completed successfully"
+msgstr "Din registrering har slutförts"
+
+#: includes/functions.php:11
+msgid "Start your BankID app."
+msgstr "Starta BankID-appen"
+
+#: includes/functions.php:15
+msgid "The BankID app is not installed. Please contact your internet bank."
+msgstr "Du har inte BankID-appen installerad. Kontakta din internetbank."
+
+#: includes/functions.php:19
+msgid "Action cancelled. Please try again."
+msgstr "Åtgärden avbruten. Försök igen."
+
+#: includes/functions.php:23
+msgid ""
+"An identification or signing for this personal number is already started. "
+"Please try again."
+msgstr ""
+"En identifiering eller underskrift för det här personnumret är redan "
+"påbörjad. Försök igen."
+
+#: includes/functions.php:27
+msgid "Internal error. Please try again."
+msgstr "Internt tekniskt fel. Försök igen."
+
+#: includes/functions.php:31
+msgid "Action cancelled."
+msgstr "Åtgärden avbruten."
+
+#: includes/functions.php:35
+msgid ""
+"The BankID app is not responding. Please check that the program is started "
+"and that you have internet access. If you don’t have a valid BankID you can "
+"get one from your bank.Try again."
+msgstr ""
+"BankID-appen svarar inte. Kontrollera att den är startad och att du har "
+"internetanslutning. Om du inte har något giltigt BankID kan du hämta ett hos "
+"din Bank. Försök sedan igen."
+
+#: includes/functions.php:39
+msgid "Enter your security code in the BankID app and select Identify or Sign."
+msgstr ""
+"Skriv in din säkerhetskod i BankID-appen och välj Legitimera eller Skriv "
+"under."
+
+#: includes/functions.php:43
+msgid "Trying to start your BankID app."
+msgstr "Försöker starta BankID-appen."
+
+#: includes/functions.php:47
+msgid ""
+"Searching for BankID:s, it may take a little while...If a few seconds have "
+"passed and still no BankID has been found, you probably don’t have a BankID "
+"which can be used for this identification/signingon this computer. If you "
+"have a BankID card, please insert it into your card reader. If you don’t "
+"have a BankID you can order one from your internetbank. If you have a "
+"BankIDon another device you can start the BankID app on that device."
+msgstr ""
+"Söker efter BankID, det kan ta en liten stund… Om det har gått några "
+"sekunder och inget BankID har hittats har du sannolikt inget BankID som går "
+"att använda för den aktuella identifieringen/underskriften i den här datorn. "
+"Om du har ett BankID-kort, sätt in det i kortläsaren. Om du inte har något "
+"BankID kan du hämta ett hos din internetbank. Om du har ett BankID på en "
+"annan enhet kan du starta din BankID-app där."
+
+#: includes/functions.php:51
+msgid ""
+"Searching for BankID:s, it may take a little while...If a few seconds have "
+"passed and still no BankID has been found, you probably don’t have a BankID "
+"which can be used for this identification/signingon this device. If you "
+"don’t have a BankID you can order one from your internet bank. If you have a "
+"BankID on another device you can start the BankID app on that device."
+msgstr ""
+"Söker efter BankID, det kan ta en liten stund… Om det har gått några "
+"sekunder och inget BankID har hittats har du sannolikt inget BankID som går "
+"att använda för den aktuella identifieringen/underskriften i den här "
+"enheten. Om du inte har något BankID kan du hämta ett hos din internetbank. "
+"Om du har ett BankID på en annan enhet kan du starta din BankID-app där."
+
+#: includes/functions.php:55
+msgid ""
+"Searching for BankID:s, it may take a little while...If a few seconds have "
+"passed and still no BankID has been found, you probably don’t have a BankID "
+"which can be used for this identification/signingon this computer. If you "
+"have a BankID card,pleaseinsert it into your card reader. If you don’t have "
+"a BankID you can order one from your internetbank."
+msgstr ""
+"Söker efter BankID, det kan ta en liten stund… Om det har gått några "
+"sekunder och inget BankID har hittats har du sannolikt inget BankID som går "
+"att använda för den aktuella identifieringen/underskriften i den här datorn. "
+"Om du har ett BankID-kort, sätt in det i kortläsaren. Om du inte har något "
+"BankID kan du hämta ett hos din internetbank."
+
+#: includes/functions.php:59
+msgid ""
+"Searching for BankID:s, it may take a little while...If a few seconds have "
+"passed and still no BankID has been found, you probably don’t have a BankID "
+"which can be used for this identification/signingon this device. If you "
+"don’t have a BankID you can order one from your internet bank"
+msgstr ""
+"Söker efter BankID, det kan ta en liten stund… Om det har gått några "
+"sekunder och inget BankID har hittats har du sannolikt inget BankID som går "
+"att använda för den aktuella identifieringen/underskriften i den här "
+"enheten. Om du inte har något BankID kan du hämta ett hos din internetbank."
+
+#: includes/functions.php:63
+msgid ""
+"The BankID you are trying to use is revoked or too old. Please use another "
+"BankID or order a new one from your internet bank."
+msgstr ""
+"Det BankID du försöker använda är för gammalt eller spärrat. Använd ett "
+"annat BankID eller hämta ett nytt hos din internetbank."
+
+#: includes/functions.php:67
+msgid ""
+"The BankID app couldn’t be found on your computer or mobile device. Please "
+"install it and order a BankID from your internet bank. Install the app from "
+"your app store or https://install.bankid.com."
+msgstr ""
+"BankID-appen verkar inte finnas i din dator eller telefon. Installera den "
+"och hämta ett BankID hos din internetbank. Installera appen från din "
+"appbutik eller https://install.bankid.com."
+
+#: includes/functions.php:71
+msgid ""
+"Failed to scanthe QR code. Start the BankID app and scan the QR code. If you "
+"don't have the BankID app, you need to install it and order a BankID from "
+"your internet bank. Install the app from your app store or https://install."
+"bankid.com."
+msgstr ""
+"Misslyckades att läsa av QR koden. Starta BankID-appen och läs av QR koden. "
+"Om du inte har BankID-appen måste du installera den och hämta ett BankID hos "
+"din internetbank. Installera appen från din appbutik eller https://install."
+"bankid.com."
+
+#: includes/functions.php:75
+msgid "Start the BankID app"
+msgstr "Starta BankID-appen"
+
+#: includes/functions.php:79
+msgid ""
+"Would you like to identify yourselfor sign with a BankID on this computer or "
+"with a Mobile BankID?"
+msgstr ""
+"Vill du identifiera dig eller skriva under med BankID på den här datorn "
+"eller med ett Mobilt BankID?"
+
+#: includes/functions.php:83
+msgid ""
+"Would you like to identify yourselfor sign with a BankID on this deviceor "
+"with a BankID on another device?"
+msgstr ""
+"Vill du identifiera dig eller skriva under med ett BankID på den här enheten "
+"eller med ett BankID på en annan enhet?"
+
+#: includes/functions.php:87
+msgid "Identificationor signing in progress"
+msgstr "Identifiering eller underskrift pågår."
+
+#: includes/functions.php:91
+msgid "Unknown error. Please try again"
+msgstr "Okänt fel. Försök igen."
+
+#: includes/functions.php:101
+msgid "Invalid Request, Please try again"
+msgstr "Ogiltig begäran, försök igen"
+
+#: includes/functions.php:108
+msgid "Unknown Error"
+msgstr "Okänt fel"
+
+#: templates/shortcodes/complete-info.php:3
+msgid ""
+"You have one more step left, please fill in your information and then your "
+"registration is complete."
+msgstr ""
+"Sista steget är att du fyller i dina uppgifter och sedan är din registrering "
+"klar."
+
+#: templates/shortcodes/complete-info.php:13
+msgid "First name"
+msgstr "Förnamn"
+
+#: templates/shortcodes/complete-info.php:18
+msgid "Last name"
+msgstr "Efternamn"
+
+#: templates/shortcodes/complete-info.php:23
+msgid "Your Email address"
+msgstr "Din e-postadress"
+
+#: templates/shortcodes/complete-info.php:28
+msgid "Your Phone number"
+msgstr "Ditt telefonnummer"
+
+#: templates/shortcodes/complete-info.php:36
+msgid "Complete Registration"
+msgstr "Färdigställ registrering"
+
+#: templates/shortcodes/login.php:7 templates/shortcodes/signup.php:10
+msgid "Enter your personal number"
+msgstr "Ange ditt personnummer"
+
+#: templates/shortcodes/login.php:14
+msgid "Remember my Personnal Number"
+msgstr "Kom ihåg mitt personnummer"
+
+#: templates/shortcodes/login.php:21
+msgid "Login with Bankid"
+msgstr "Logga in med Bankid"
+
+#: templates/shortcodes/login.php:29 templates/shortcodes/signup.php:46
+msgid "Start Bank ID App on the device where you have installed"
+msgstr "Starta BankID-appen"
+
+#: templates/shortcodes/login.php:39 templates/shortcodes/signup.php:56
+msgid "If the app doesn't auto-start, Scan the above QR Code"
+msgstr ""
+"Om BankID-appen inte startar automatiskt kan du skanna ovanstående QR-kod"
+
+#: templates/shortcodes/login.php:40 templates/shortcodes/signup.php:57
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: templates/shortcodes/signup.php:3
+msgid ""
+"Since we use BankID for registration, you don't need to upload any document "
+"to verify your account, your information are kept safe"
+msgstr ""
+"Eftersom vi använder Mobilt BankID för registrering behöver du inte ladda "
+"upp något dokument för att verifiera ditt användarkonto."
+
+#: templates/shortcodes/signup.php:38
+msgid "Start Bankid"
+msgstr "Starta BankID-appen"
+
+#: templates/shortcodes/welcome.php:2
+msgid "Your account created successfully"
+msgstr "Ditt konto har skapats"
+
+#: templates/shortcodes/welcome.php:3
+msgid ""
+"You have one more step left!! Please setup your account to receive job "
+"offerings."
+msgstr "Ställ in din konto för att börja få jobberbjudanden."
+
+#: templates/shortcodes/welcome.php:4
+msgid "Setup my account now"
+msgstr "Få igång mitt konto nu"
+
+#: templates/shortcodes/welcome.php:5
+msgid "Skip for now, go to my account"
+msgstr "Hoppa över för tillfället, gå till min profil"

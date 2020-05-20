@@ -1,0 +1,67 @@
+body {
+  font-size: 13px;
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin: 10px 0;
+  outline: none;
+  border: 0;
+  height: 1px;
+  background: #000000;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.push-left {
+  float: left;
+}
+
+.push-right {
+  float: right;
+}
+
+.row {
+  width: 100%;
+}
+
+.capitalized {
+  text-transform: capitalize;
+}
+
+.lowercased {
+  text-transform: lowercase;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+p,
+li {
+  margin-bottom: 20px;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+strong {
+  font-weight: 700;
+}
+
